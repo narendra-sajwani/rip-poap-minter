@@ -1,7 +1,7 @@
 import { CONTRACT_ERRORS } from './constants';
 
-export const parseContractError = (error) => {
-  const errorString = error?.message || error?.toString() || '';
+export const parseContractError = (error: any): string => {
+  const errorString: string = error?.message || error?.toString() || '';
   
   // Handle custom errors from your contract
   if (errorString.includes('InvalidEventId')) {
@@ -21,7 +21,7 @@ export const parseContractError = (error) => {
   }
   
   // Handle common MetaMask/Web3 errors
-  if (errorString.includes('user rejected')) {
+  if (errorString.includes('user rejected') || errorString.includes('User denied')) {
     return 'Transaction was cancelled by user';
   }
   if (errorString.includes('insufficient funds')) {
@@ -35,7 +35,7 @@ export const parseContractError = (error) => {
   return 'Transaction failed. Please try again.';
 };
 
-export const isUserRejectedError = (error) => {
-  const errorString = error?.message || error?.toString() || '';
+export const isUserRejectedError = (error: any): boolean => {
+  const errorString: string = error?.message || error?.toString() || '';
   return errorString.includes('user rejected') || errorString.includes('User denied');
 };
