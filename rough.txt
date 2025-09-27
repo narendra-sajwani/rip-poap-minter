@@ -1,0 +1,20 @@
+Contract Address: 0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
+📍 RIF Token Address: 0x19f64674d8a5b4e652319f5e239efd3bc969a1fe
+🔍 Block Explorer: https://explorer.testnet.rsk.co/address/0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
+
+🎉 Initial Event Created:
+   Name: ETHGlobal New Delhi 2025
+   Description: Proof of attendance for ETHGlobal New Delhi hackathon
+   Active: true
+
+🔧 NEXT STEPS:
+1. Copy this contract address:
+   0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
+
+2. Add to your .env files:
+   RIF_POAP_CONTRACT_ADDRESS=0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
+   REACT_APP_RIF_POAP_CONTRACT_ADDRESS=0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
+
+3. Update frontend constants and start testing!
+
+🎉 SUCCESS! Contract deployed at: 0xb3B4a765d1a0df60a1323Cb2447B1E57e9F80B42
