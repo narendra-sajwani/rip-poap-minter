@@ -164,14 +164,14 @@ const ConnectWallet = () => {
         {connecting ? '🔄 Connecting...' : '🦊 Connect MetaMask'}
       </button>
 
-      <div style={{ marginTop: '20px', fontSize: '12px', color: '#6b7280' }}>
+      <div style={{ marginTop: '20px', fontSize: '12px', color: '#ebeef3ff' }}>
         <p style={{ marginBottom: '8px' }}>New to MetaMask or need testnet tokens?</p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
           <a 
             href="https://metamask.io/" 
             target="_blank" 
             rel="noopener noreferrer"
-            style={{ color: '#3b82f6', textDecoration: 'underline' }}
+            style={{ color: '#ebeef3ff', textDecoration: 'underline' }}
           >
             📥 Install MetaMask
           </a>
@@ -179,7 +179,7 @@ const ConnectWallet = () => {
             href="https://faucet.rootstock.io/" 
             target="_blank" 
             rel="noopener noreferrer"
-            style={{ color: '#3b82f6', textDecoration: 'underline' }}
+            style={{ color: '#ebeef3ff', textDecoration: 'underline' }}
           >
             🚰 Get Test Tokens
           </a>

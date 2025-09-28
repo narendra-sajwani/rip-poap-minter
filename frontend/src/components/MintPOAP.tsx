@@ -215,7 +215,7 @@ const MintPOAP: React.FC = () => {
         <h4 style={{ fontWeight: '600', marginBottom: '12px', color: '#1f2937' }}>💰 Your RIF Balance</h4>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span style={{ color: '#6b7280' }}>Available:</span>
-          <span style={{ fontWeight: 'bold', fontSize: '18px' }}>{formatTokenAmount(rifBalance)} RIF</span>
+          <span style={{ fontWeight: 'bold', fontSize: '18px', color: '#ea580c' }}>{formatTokenAmount(rifBalance)} RIF</span>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px' }}>
           <span style={{ color: '#6b7280' }}>Required:</span>
@@ -244,7 +244,7 @@ const MintPOAP: React.FC = () => {
                 {hasEnoughAllowance ? '✅' : '1️⃣'}
               </span>
               <div>
-                <p style={{ fontWeight: '600', margin: 0, fontSize: '14px' }}>Approve RIF Tokens</p>
+                <p style={{ fontWeight: '600', margin: 0, fontSize: '14px', color: '#ea580c' }}>Approve RIF Tokens</p>
                 <p style={{ fontSize: '12px', color: '#6b7280', margin: '4px 0 0' }}>Allow contract to spend RIF</p>
               </div>
             </div>
@@ -285,7 +285,7 @@ const MintPOAP: React.FC = () => {
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <span style={{ fontSize: '24px', marginRight: '12px' }}>2️⃣</span>
               <div>
-                <p style={{ fontWeight: '600', margin: 0, fontSize: '14px' }}>Mint POAP</p>
+                <p style={{ fontWeight: '600', margin: 0, fontSize: '14px', color: '#ea580c' }}>Mint POAP</p>
                 <p style={{ fontSize: '12px', color: '#6b7280', margin: '4px 0 0' }}>Mint your POAP NFT</p>
               </div>
             </div>
